@@ -4,15 +4,15 @@ import streamlit as st
 # 1. Setup your data structure
 roles = {
     "DPS": {
-        "items": ["Ashe", "Bastion", "Cassidy", "Echo", "Genji", "Hanzo", "Junkrat", "Mei", "Pharah", "Reaper", "Sojourn", "Soldier: 76", "Sombra", "Symmetra", "Torbjörn", "Tracer", "Venture", "Widowmaker"],
+        "items": ["Ashe","Anran", "Bastion", "Cassidy", "Echo", "Emre", "Freja", "Genji", "Hanzo", "Junkrat", "Mei", "Pharah", "Reaper", "Shion", "Sierra", "Sojourn", "Soldier: 76", "Sombra", "Symmetra", "Torbjörn", "Tracer","Vendetta", "Venture", "Widowmaker"],
         "message": "The chosen DPS is: **{pick}**"
     },
     "Tank": {
-        "items": ["D.Va", "Doomfist", "Hazard", "Junker Queen", "Mauga", "Orisa", "Ramattra", "Reinhardt", "Roadhog", "Sigma", "Winston", "Zarya"],
+        "items": ["D.Va", "Dmon","Domina", "Doomfist", "Hazard", "Junker Queen", "Mauga", "Orisa", "Ramattra", "Reinhardt", "Roadhog", "Sigma", "Winston", "Zarya", "Wrecking Ball"],
         "message": "Your random tank is: **{pick}**"
     },
     "Support": {
-        "items": ["Ana", "Baptiste", "Brigitte", "Lúcio", "Mercy", "Moira", "Zenyatta"],
+        "items": ["Ana", "Baptiste", "Brigitte", "Doctrine", "Illari", "Jetpack Cat", "Juno", "Kiriko", "Lifeweaver", "Lúcio", "Mercy","Mizuki", "Sombra", "Moira", "Wuyang", "Zenyatta"],
         "message": "The chosen Support is: **{pick}**"
     }
 }
